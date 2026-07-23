@@ -1,5 +1,6 @@
 [build]
   command = "bun run build"
+  publish = ".netlify/static"
 
 [build.environment]
   NODE_VERSION = "20"
